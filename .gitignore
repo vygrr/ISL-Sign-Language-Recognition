@@ -1,14 +1,36 @@
-# Ignore Python virtual environments
-*venv*
+# --- Python virtual environments ---
+.venv/
+venv/
 
-#Ignore debug files
-*debug*
-*accuracy*
-collage.py
-*.csv*
+# --- Ignore only specific debug/accuracy scripts ---
+static/debug.py
+static/accuracy.py
+dynamic/include50/original/debug_draw.py
+dynamic/include50/original/debug_frequency.py
+dynamic/include50/original/debug_metadata.py
 
-#Ignore dynamic udpated model
+# --- Ignore specific debug image ---
+static/debug_landmarks.png
+
+# --- Ignore collage script ---
+static/collage.py
+
+# --- CSV handling ---
+# Ignore CSV files
+dynamic/include50/original/real_world_ranking.csv
+
+# --- Ignore dynamic updated model ---
 /dynamic/include50/updated
 
-#Ignore dynamic data folder
+# --- Ignore dynamic data folder ---
 /dynamic/include50/original/data
+
+# --- General Python cache & IDE files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
