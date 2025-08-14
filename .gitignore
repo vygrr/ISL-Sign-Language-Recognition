@@ -1,0 +1,14 @@
+# Ignore Python virtual environments
+*venv*
+
+#Ignore debug files
+*debug*
+*accuracy*
+collage.py
+*.csv*
+
+#Ignore dynamic udpated model
+/dynamic/include50/updated
+
+#Ignore dynamic data folder
+/dynamic/include50/original/data

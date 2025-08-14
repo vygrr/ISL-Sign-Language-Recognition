@@ -1,0 +1,7 @@
+numpy<2
+mediapipe==0.10.21
+opencv-python==4.11.0.86
+torch==2.8.0
+scikit-learn
+tqdm
+joblib
